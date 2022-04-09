@@ -49,7 +49,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 8264793981386700032, guid: 3fb450ff6811e684083f12f3139bca73,
+  m_ModelPrefab: {fileID: 1684510348092863259, guid: 5bc1c5e24bfb8244f9d736b7bfd8762f,
     type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
@@ -585,7 +585,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 8264793981386700032, guid: 3fb450ff6811e684083f12f3139bca73,
+  m_ModelPrefab: {fileID: 1684510348092863259, guid: 5bc1c5e24bfb8244f9d736b7bfd8762f,
     type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
@@ -1224,6 +1224,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1891449716377673273}
+  - component: {fileID: 1402222965577283971}
+  - component: {fileID: 3843707915880252156}
+  - component: {fileID: 6509065448962418613}
   m_Layer: 0
   m_Name: Camera Offset
   m_TagString: Untagged
@@ -1248,6 +1251,51 @@ Transform:
   m_Father: {fileID: 1891449716779607112}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1402222965577283971
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891449716377673272}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 0
+  m_Direction: 1
+  m_Center: {x: 0, y: -0, z: 0}
+--- !u!54 &3843707915880252156
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891449716377673272}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6509065448962418613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891449716377673272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e3731cba3725641a30dc5fb1858969, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCollider: {fileID: 1402222965577283971}
+  cameraPosition: {fileID: 1891449716377673273}
+  origin: {fileID: 0}
 --- !u!1 &1891449716779607114
 GameObject:
   m_ObjectHideFlags: 0
