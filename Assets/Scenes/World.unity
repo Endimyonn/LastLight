@@ -229,7 +229,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 76e7443f3abaf4b48950fec24f70965b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 76e7443f3abaf4b48950fec24f70965b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.83599997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 76e7443f3abaf4b48950fec24f70965b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.83599997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 76e7443f3abaf4b48950fec24f70965b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.83599997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 76e7443f3abaf4b48950fec24f70965b,
         type: 3}
@@ -244,7 +259,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 76e7443f3abaf4b48950fec24f70965b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.434
+      value: -1.5077
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 76e7443f3abaf4b48950fec24f70965b,
         type: 3}
@@ -465,7 +480,7 @@ MonoBehaviour:
   powerLevel: 100
   lightSource: {fileID: 1612233171}
   initialIntensity: 0
-  drainSpeed: 1
+  drainSpeed: 0.35
   drainActive: 1
   dimThreshold: 40
   powerMonitor: {fileID: 788170706}
@@ -570,7 +585,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.25, y: 0}
   m_AnchorMax: {x: 0.75, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &318196434
@@ -1050,7 +1065,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.516}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1632,7 +1647,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1612233168
 GameObject:
@@ -2193,6 +2208,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.25, y: 0}
   m_AnchorMax: {x: 0.75, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5}
+  m_AnchoredPosition: {x: -0.000015258789, y: -5}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
