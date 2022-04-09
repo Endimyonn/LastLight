@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6604298955494647717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6604298955494647715}
+  - component: {fileID: 6604298955494647716}
+  m_Layer: 0
+  m_Name: Right Hand Presence
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6604298955494647715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6604298955494647717}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.279705, y: -9.848814, z: 18.42558}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6604298955494647716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6604298955494647717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3f17c17a6fa004bbb6a3290ce2f931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerCharacteristics: 576
+  controllerPrefabs:
+  - {fileID: 8264793981386700060, guid: 3fb450ff6811e684083f12f3139bca73, type: 3}
+  - {fileID: 3175779325701734160, guid: 2a7928a55d7291f41a1d855f97f804a9, type: 3}
+  - {fileID: 178476857769112641, guid: 3c01b83e6a7f8944da2576c8008a1cf6, type: 3}
+  - {fileID: 1420824372406419205, guid: e31cd3c3059e4514ca9ae85c7c00d30a, type: 3}
+  - {fileID: 5895200445407351280, guid: be4de91810e564444a4068278f8a9e80, type: 3}
+  - {fileID: 6666097923878699479, guid: c3f7fe7c33c6e254f95ca9a7ca1714dc, type: 3}
+  - {fileID: 8165935279146357402, guid: 0ffe6936a3307114faf5859cc7d5008c, type: 3}
+  - {fileID: 7664739332080839629, guid: 2975752d471d68648b17082aa9ace644, type: 3}
+  - {fileID: 5460774215603137828, guid: 974f8398638c5394d835580783995882, type: 3}
+  spawnedController: {fileID: 0}
