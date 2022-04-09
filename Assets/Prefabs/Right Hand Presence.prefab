@@ -53,5 +53,4 @@ MonoBehaviour:
   - {fileID: 6666097923878699479, guid: c3f7fe7c33c6e254f95ca9a7ca1714dc, type: 3}
   - {fileID: 8165935279146357402, guid: 0ffe6936a3307114faf5859cc7d5008c, type: 3}
   - {fileID: 7664739332080839629, guid: 2975752d471d68648b17082aa9ace644, type: 3}
-  - {fileID: 5460774215603137828, guid: 974f8398638c5394d835580783995882, type: 3}
   spawnedController: {fileID: 0}
