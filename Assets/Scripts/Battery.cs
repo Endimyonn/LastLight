@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Battery : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float restorationAmount = 25;
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        Debug.Log("Battery hit object named " + other.gameObject.name + " tagged " + other.gameObject.tag);
+
+        if (other.gameObject.tag == "Flashlight")
+        {
+            other.GetComponent<Flashlight>().RestorePower(restorationAmount);
+            Destroy(gameObject);
+        }
     }
 }

@@ -16,6 +16,8 @@ public class Flashlight : MonoBehaviour
 
     public Slider powerMonitor;
 
+    public AudioSource reloadSound;
+
     
     private void Awake()
     {
@@ -45,7 +47,7 @@ public class Flashlight : MonoBehaviour
         }
 
         //update UI
-        powerMonitor.value = powerLevel;
+        powerMonitor.value = powerLevel / 100;
     }
 
     public void RestorePower(float argAmount)
@@ -56,5 +58,8 @@ public class Flashlight : MonoBehaviour
         {
             powerLevel = 100;
         }
+
+        reloadSound.Stop();
+        reloadSound.Play();
     }
 }
