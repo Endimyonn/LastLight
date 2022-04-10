@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5415253032527589159}
   - component: {fileID: 3149243392484184881}
   - component: {fileID: 3634536907621912811}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pCube1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 1854778154840152468}
   - component: {fileID: 1854778154840152471}
   - component: {fileID: 1854778154840152470}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Flashlight-V2
   m_TagString: Flashlight
   m_Icon: {fileID: 0}
@@ -179,6 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a19e1c87011e98b44834674bf0e93d98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  holdInteract: 0
   powerLevel: 100
   lightSource: {fileID: 1854778156119529625}
   initialIntensity: 0
@@ -187,6 +188,7 @@ MonoBehaviour:
   dimThreshold: 40
   powerMonitor: {fileID: 1854778156061948936}
   reloadSound: {fileID: 1854778155549310651}
+  toggleSound: {fileID: 0}
 --- !u!114 &1854778154840152470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,7 +315,7 @@ GameObject:
   - component: {fileID: 1854778154445394541}
   - component: {fileID: 1854778154445394539}
   - component: {fileID: 1854778154445394540}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +391,7 @@ GameObject:
   - component: {fileID: 1854778154502648107}
   - component: {fileID: 1854778154502648108}
   - component: {fileID: 1854778154502648109}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: power meter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1854778154692470098}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: grab point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,7 +518,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1854778155093847901}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -553,7 +555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854778155549310650}
   - component: {fileID: 1854778155549310651}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: reload sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,7 +683,7 @@ GameObject:
   - component: {fileID: 1854778156061948951}
   - component: {fileID: 1854778156061948936}
   - component: {fileID: 1854778156061948950}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -784,7 +786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854778156064185172}
   - component: {fileID: 1854778156064185171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -877,7 +879,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854778156119529575}
   - component: {fileID: 1854778156119529625}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -971,7 +973,7 @@ GameObject:
   - component: {fileID: 1854778156248067931}
   - component: {fileID: 1854778156248067929}
   - component: {fileID: 1854778156248067930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1046,7 +1048,7 @@ GameObject:
   - component: {fileID: 1262395689740450787}
   - component: {fileID: 249237249383695795}
   - component: {fileID: 2937228975931733647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: pCylinder1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
