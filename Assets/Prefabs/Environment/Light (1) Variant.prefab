@@ -90,7 +90,7 @@ PrefabInstance:
     - target: {fileID: 7574934662445856512, guid: f43b5c884b6d6aa42b4131b8468bac63,
         type: 3}
       propertyPath: m_Name
-      value: Light (1)
+      value: Light (1) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7604050631628757833, guid: f43b5c884b6d6aa42b4131b8468bac63,
         type: 3}
@@ -103,5 +103,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4864056309639282896, guid: c49e4499a45d8bd4c85644e6921977de,
         type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 205247441298627055, guid: f43b5c884b6d6aa42b4131b8468bac63, type: 3}
+    - {fileID: 1984183719573358455, guid: f43b5c884b6d6aa42b4131b8468bac63, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f43b5c884b6d6aa42b4131b8468bac63, type: 3}
