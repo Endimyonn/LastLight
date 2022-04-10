@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Flashlight : MonoBehaviour
+public class Flashlight : Interactable
 {
     public float powerLevel = 100;
     public Light lightSource;
@@ -17,16 +17,19 @@ public class Flashlight : MonoBehaviour
     public Slider powerMonitor;
 
     public AudioSource reloadSound;
+    public AudioSource toggleSound;
 
-    
+
     private void Awake()
     {
         initialIntensity = lightSource.intensity;
     }
 
     
-    private void Update()
+    public override void Update()
     {
+        base.Update();
+
         //drain
         if (drainActive)
         {
@@ -61,5 +64,17 @@ public class Flashlight : MonoBehaviour
 
         reloadSound.Stop();
         reloadSound.Play();
+    }
+
+    public override void Interact(GameObject argSource)
+    {
+        if (powerLevel > 0)
+        {
+            drainActive = !drainActive;
+            lightSource.gameObject.SetActive(drainActive);
+        }
+
+        toggleSound.Stop();
+        toggleSound.Play();
     }
 }
