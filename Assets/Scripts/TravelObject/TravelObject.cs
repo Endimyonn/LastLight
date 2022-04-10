@@ -19,7 +19,7 @@ public class TravelObject : MonoBehaviour
 
     private State state;
 
-    private void Start()
+    private void Awake()
     {
         foreach (Transform trackNode in travelTrack.transform)
         {
