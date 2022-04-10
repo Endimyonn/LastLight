@@ -14,8 +14,8 @@ public class VRCapsuleFixer : MonoBehaviour
     {
         if (playerCollider)
         {
-            playerCollider.height = cameraPosition.localPosition.y;
-            playerCollider.center = new Vector3(0, -(cameraPosition.localPosition.y / 2), 0);
+            playerCollider.height = cameraPosition.position.y;
+            playerCollider.center = new Vector3(cameraPosition.localPosition.x, -(cameraPosition.localPosition.y / 2), cameraPosition.localPosition.z);
         }
     }
 }
